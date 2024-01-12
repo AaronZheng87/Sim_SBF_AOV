@@ -63,7 +63,7 @@ for (j in 1:sim_n) {
     df <- rbind(df_new, df)
     
     print(paste0("当前行数: ", nrow(df)))
-    m <- anovaBF(dv ~ groups, data = df)#one way anova
+    m <- anovaBF(dv ~ groups, data = df)#one way anova, same result with lmBF
     bf_val[i] <- extractBF(m)[,1]
     
     print(i)
