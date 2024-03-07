@@ -71,7 +71,6 @@ for (j in 1:sim_n) {
     print(paste0("当前行数: ", nrow(data)))
     print(i)
 
-    m <- anovaBF(DV ~ groups, data = data)#one way anova, same result with lmBF
     m <- generalTestBF(DV ~ groups*subj_idx-subj_idx:groups, data = data, 
                        whichRandom = 'subj_idx', whichModels = 'top')
     bf_val[i] <- 1/extractBF(m)[1,1]
