@@ -10,7 +10,7 @@ This file contains main R files for simulation of power analysis.
 
 ### one-way three groups ANOVA
 
-effect Size of simulation: $$ Cohen's \space f = \frac{\frac{{\sqrt{{\sum (\mu - \overline{\mu})^2}}}}{{{N}}}}{\sigma}$$
+effect Size of simulation: $Cohen's \space f = \frac{\frac{{\sqrt{{\sum (\mu - \overline{\mu})^2}}}}{{{N}}}}{\sigma}$
 
 Source: [ Lakens](http://journals.sagepub.com/doi/10.1177/2515245920951503)
 
@@ -23,7 +23,7 @@ Source: [ Lakens](http://journals.sagepub.com/doi/10.1177/2515245920951503)
 
 ### 2*2 within factors ANOVA
 
-effect size of simulation: $$ Cohen's\space d $$
+effect size of simulation: $ Cohen's\space d $
 
 Source: [Langenberg](https://doi.org/10.3758/s13428-022-01902-8)
 
