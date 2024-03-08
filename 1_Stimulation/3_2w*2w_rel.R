@@ -8,14 +8,14 @@ library(BayesFactor)
 
 sd <- 1
 k <- 2
-r <- 0.5
+r <- 0.1
 d_2x2 <- function(initial_mu, sd, k, r){
   mu_A <- (initial_mu[1]+initial_mu[2])-(initial_mu[3]+initial_mu[4])
   var_A <- 2^k*sd^2*(1-r)
-  d <- mu_A/var_A
+  d <- mu_A/sqrt(var_A)
   return(d)
 }
-target_d <- 0.3
+target_d <- 0.5
 # 定义目标函数
 objective_function <- function(initial_mu) {
   d_2x2(initial_mu, sd, k, r)
