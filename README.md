@@ -23,7 +23,7 @@ Source: [ Lakens](http://journals.sagepub.com/doi/10.1177/2515245920951503)
 
 ### 2*2 within factors ANOVA
 
-effect size of simulation: $ Cohen's\space d $
+effect size of simulation: $Cohen's\space d$
 
 Source: [Langenberg](https://doi.org/10.3758/s13428-022-01902-8)
 
