@@ -44,6 +44,6 @@ Source: [Langenberg](https://doi.org/10.3758/s13428-022-01902-8)
   - [ ] Group B main effect
     - [ ] Check
     - [ ] BF power
-  - [ ] Interaction effect
-    - [ ] Check
+  - [x] Interaction effect
+    - [x] Check
     - [ ] BF power
